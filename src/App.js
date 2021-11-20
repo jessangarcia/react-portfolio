@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './components/About';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
@@ -6,38 +7,25 @@ import Contact from './components/Contact';
 import Projects from './components/Project';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [categories] = useState([
-    {
-      name: 'projects',
-      description: 'projects created while in UofU bootcamp',
-    }
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
     <div>
-      <Nav 
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      />
-      <main>
-        {!contactSelected ? (
-          <>
-          <About />
-          <Projects />
-          </>
-        ) : (
-          <Contact />
-        )}
-      </main>
-      <footer>
-        <Footer />
-      </footer>
+        <Router>
+          <nav>
+          <Nav />
+          </nav>
+          <main>
+          <Switch>
+            <Route exact path='/react-port' component={About} />
+            <Route path='/about' component={About} />
+            <Route path='/project' component={Projects} />
+            <Route path='/contact' component={Contact} />
+          </Switch>
+          </main>
+          <footer>
+            <Footer />
+          </footer>
+        </Router>
     </div>
   );
 }

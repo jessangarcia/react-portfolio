@@ -49,7 +49,7 @@ function Contact() {
                         <a href="https://github.com/jessangarcia" target="_blank" rel="noreferrer">GitHub</a>
                     </li>
                     <li>
-                        <a href="https://jessangarcia.github.io/react-port/assets/resume/jessie-resume.pdf">Resume Download</a>
+                        <a href="../../src/assets/jessie-resume.pdf" download>Resume Download</a>
                     </li>
                 </ul>
             </div>
