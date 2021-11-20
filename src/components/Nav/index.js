@@ -17,7 +17,7 @@ const Nav = () => {
                         <Link to='/contact'>Contact</Link>
                     </li>
                     <li>
-                        <a href="../../src/assets/jessie-resume.pdf" download="jessie-resume.pdf">Resume</a>
+                        <Link to='/resume'>Resume</Link>
                     </li>
                 </ul>
             </nav>

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Projects from './components/Project';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/about' component={About} />
             <Route path='/project' component={Projects} />
             <Route path='/contact' component={Contact} />
+            <Route path='/resume' component={Resume} />
           </Switch>
           </main>
           <footer className="fixed-bottom">

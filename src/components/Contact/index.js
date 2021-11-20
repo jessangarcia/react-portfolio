@@ -49,7 +49,7 @@ function Contact() {
                         <a href="https://github.com/jessangarcia" target="_blank" rel="noreferrer">GitHub</a>
                     </li>
                     <li>
-                        <a href="../../src/assets/jessie-resume.pdf" download>Resume Download</a>
+                        <a href="src/assets/resume/jessie-resume.pdf" download>Resume Download</a>
                     </li>
                 </ul>
             </div>
