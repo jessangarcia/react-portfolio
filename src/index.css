@@ -116,6 +116,41 @@ header a {
   color: var(--light);
 }
 
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .95);
+}
+
+ul {
+  margin: 10px;
+  margin-right: 60px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+li a {
+  color: #d07eff;
+}
+
+li a:link {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #5709f5;
+}
+
+footer p {
+  text-align: center;
+  font-size: x-small;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
