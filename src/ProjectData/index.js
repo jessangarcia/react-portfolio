@@ -2,7 +2,7 @@ import GG from '../assets/images/gamego.png';
 import dnd from '../assets/images/dnd.png';
 import salonme from '../assets/images/salonme.png';
 import weather from '../assets/images/weathershot.png';
-import runbud from '../assets/images/runbuddy.png';
+import runbud from '../assets/images/runbuddypage.png';
 import budget from '../assets/images/budget-tracker.png';
 
 const data = [

@@ -158,6 +158,12 @@ li a:hover {
   color: #5709f5;
 }
 
+.projectPhoto {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
 footer p {
   text-align: center;
   font-size: x-small;
