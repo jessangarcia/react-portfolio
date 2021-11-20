@@ -9,9 +9,9 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+  padding: 10px;
   background-color: rgba(31, 1, 41, 0.76);
+  padding-bottom: 60px;
 }
 :root {
   --primary: #5709f5;
@@ -71,11 +71,11 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
-  margin-left: 20px;
 }
 
 h2 {
   font-size: 2rem;
+  margin-left: 20px;
 }
 
 h3 {
@@ -111,6 +111,7 @@ a:hover {
 
 header {
   background: var(--dark);
+  width: 100%;
 }
 
 header a {
@@ -118,11 +119,11 @@ header a {
 }
 
 footer {
-  position: absolute;
   bottom: 0px;
   width: 100%;
   text-align: center;
-  background-color: rgba(0, 0, 0, .95);
+  background-color: rgba(0, 0, 0, 0.788);
+  position: fixed;
 }
 
 #contact li {
@@ -157,10 +158,21 @@ li a:link {
 li a:hover {
   color: #5709f5;
 }
-
+.project-container {
+}
+#projects {
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    flex-direction: column;
+    width: 100%;
+}
 .projectPhoto {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -218,6 +230,10 @@ input:focus {
 
 li {
   list-style: none;
+}
+
+nav {
+  display: inline;
 }
 
 nav a:hover {
@@ -310,32 +326,6 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
 }
 
 button {

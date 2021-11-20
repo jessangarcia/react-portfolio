@@ -7,13 +7,13 @@ const Projects = () => {
             {data.map((project, i) => (
                 <div>
                     <div className="project-container">
-                        <img
-                            alt={project.name}
-                            src={project.photo}
-                            className='projectPhoto'
-                        />
-                        <div>
-                            <h3>{project.name}</h3>
+                        <div id="projects">
+                            <h3 id="project-name">{project.name}</h3>
+                            <img
+                                alt={project.name}
+                                src={project.photo}
+                                className='projectPhoto'
+                            />
                             <ul>
                                 <li>
                                     <a href={project.github} target="_blank" rel="noreferrer">Repository</a>

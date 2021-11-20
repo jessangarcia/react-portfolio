@@ -22,7 +22,7 @@ function App() {
             <Route path='/contact' component={Contact} />
           </Switch>
           </main>
-          <footer>
+          <footer className="fixed-bottom">
             <Footer />
           </footer>
         </Router>
