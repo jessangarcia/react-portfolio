@@ -45,7 +45,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  background-image: url('./assets/background.jpg');
+  background-image: url('./assets/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,6 +71,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  margin-left: 20px;
 }
 
 h2 {
@@ -122,6 +123,17 @@ footer {
   width: 100%;
   text-align: center;
   background-color: rgba(0, 0, 0, .95);
+}
+
+#contact li {
+  display: inline;
+  margin-left: auto;
+  padding-right: 50px;
+}
+
+#contact {
+  border-bottom: 8px solid #d07eff;
+  border-radius: 5px 5px;
 }
 
 ul {

@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section className="my-5">
             <div>
-                <img alt="headshot" id="me" src={require('../../assets/me.jpg').default} />
+                <img alt="headshot" id="me" src={require('../../assets/images/me.jpg').default} />
                 <h2 id="about" className="flex-row">About Me</h2>
             </div>
             <div>

@@ -1,13 +1,16 @@
 import React from 'react';
 import About from './components/About';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div>
-      <nav></nav>
+      <Nav />
       <main>
         <About />
+        <Contact />
       </main>
       <footer>
         <Footer />
