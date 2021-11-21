@@ -4,7 +4,9 @@ This portfolio is built using react, and shows the projects I have recently done
 
 ## Demo
 
-![page]()
+![page](src/assets/images/portpic.png)
+
+Link: https://jessangarcia.github.io/react-portfolio/
 
 ## Getting Started with Create React App
 
