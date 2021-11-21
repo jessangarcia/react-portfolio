@@ -17,7 +17,7 @@ function App() {
           </nav>
           <main>
           <Switch>
-            <Route exact path='/react-port' component={About} />
+            <Route exact path='/about' component={About} />
             <Route path='/about' component={About} />
             <Route path='/project' component={Projects} />
             <Route path='/contact' component={Contact} />
