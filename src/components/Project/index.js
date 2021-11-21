@@ -3,7 +3,8 @@ import data from '../../ProjectData/index'
 
 const Projects = () => {
     return (
-        <>
+        <main>
+            <>
             {data.map((project, i) => (
                 <div>
                     <div className="project-container">
@@ -27,6 +28,7 @@ const Projects = () => {
                 </div>
             ))}
         </>
+        </main>
     )
 }
 

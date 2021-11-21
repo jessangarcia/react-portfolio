@@ -6,28 +6,24 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Projects from './components/Project';
 import Resume from './components/Resume';
+import Header from './components/Header';
 
 function App() {
 
   return (
     <div>
-        <Router>
-          <nav>
-          <Nav />
-          </nav>
-          <main>
-          <Switch>
-            <Route exact path='/react=portfolio' component={About} />
-            <Route path='/about' component={About} />
-            <Route path='/project' component={Projects} />
-            <Route path='/contact' component={Contact} />
-            <Route path='/resume' component={Resume} />
-          </Switch>
-          </main>
-          <footer className="fixed-bottom">
-            <Footer />
-          </footer>
-        </Router>
+      <Router>
+        <Nav />
+        <Header />
+        <Switch>
+          <Route path='/react=portfolio' component={About} />
+          <Route path='/about' component={About} />
+          <Route path='/project' component={Projects} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/resume' component={Resume} />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }

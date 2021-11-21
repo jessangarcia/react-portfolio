@@ -51,10 +51,11 @@ body {
 }
 
 #me {
-  width: 200px;
+  width: 100px;
   height: auto;
   float: left;
-  margin-right: 35px;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 h1,
@@ -117,7 +118,19 @@ header {
 header a {
   color: var(--light);
 }
+#hero {
+  background-color: rgba(208, 126, 255, 0.7);
+  height: 150px;
+    justify-content: center;
+    align-items: center;
+}
 
+#hero-text {
+  float: right;
+  justify-content: center;
+  margin-right: 200px;
+  margin-top: 100px;
+}
 footer {
   bottom: 0px;
   width: 100%;
